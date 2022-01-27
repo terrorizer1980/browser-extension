@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import type { Connection } from '@/helpers/connCheck.types';
 import useConnectionLocation from '@/composables/useConnectionLocation';
 

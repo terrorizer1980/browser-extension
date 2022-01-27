@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest';
 import unique from '@/helpers/unique';
 
 describe('unique', function () {

@@ -1,5 +1,5 @@
 module.exports = {
-  '*.{js,ts,vue}': ['eslint', 'jest --bail --findRelatedTests'],
+  '*.{js,ts,vue}': ['eslint', 'vitest --run'],
   '*.{ts,vue}': [() => 'tsc --noEmit'],
   '*.{css,scss,vue}': 'stylelint'
 };
